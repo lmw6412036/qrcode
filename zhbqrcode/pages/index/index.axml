@@ -1,0 +1,12 @@
+<view class="container page">
+  <view class="panel">
+    <view class="header">请扫描以下任意二维码或条形码</view>
+    <view class="barcode">
+      <canvas id="barcode" width="680" height="200"/>
+	  <view class="barnum">{{code}}</view>
+    </view>
+    <view class="qrcode">
+      <canvas id="qrcode" width="420" height="420"/>
+    </view>
+  </view>
+</view>

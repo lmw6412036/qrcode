@@ -1,0 +1,11 @@
+{
+	"pages": [
+		"pages/index/index"
+
+	],
+	"window": {
+		"defaultTitle": "条形码，二维码",
+		"titleBarColor": "#1b82d2"
+	},
+	"debug": true
+}
