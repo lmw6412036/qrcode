@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container page">
+  <view class="panel">
+    <view class="header">请扫描以下任意条码或二维码</view>
+    <view class="barcode">
+      <view class="barnum">{{code}}</view>
+      <canvas canvas-id="barcode" />
+    </view>
+    <view class="qrcode">
+      <canvas canvas-id="qrcode" width="420" height="420"/>
+    </view>
+  </view>
+</view>
