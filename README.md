@@ -223,10 +223,14 @@ Page({
 	onReady() {
 		// 页面加载完成
 		let that = this;
+		let code = that.data.code//需要的生成二维码的图片
+		let width = 680 //条形码长度
+		let widthq = 420//二维码边长
+		let height = 200 //条形码高度
 		//绘制条形码
 		barcode.code128(my.createCanvasContext('barcode'),that.data.code,680,200);
 		//绘制二维码
-		qrcode.draw(that.data.code,'qrcode',420);
+		qrcode.draw(code,'qrcode',420);
 	},
 	onShow() {
 		// 页面显示
